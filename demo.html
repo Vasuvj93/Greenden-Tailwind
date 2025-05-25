@@ -1,0 +1,79 @@
+<style>
+.container{
+    background-color: aqua;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;
+}
+.Header,.Footer{
+    background-color:rgb(89, 255, 200);
+    padding: 5px;margin: 10px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.middle{
+    display: grid;
+    grid-template-columns: 2fr 6fr; 
+    justify-content: center;
+    text-align: center;
+}
+.Aside{
+    background-color: greenyellow;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.Article{
+    background-color: orange;
+    display: grid;
+    grid-template-rows: 4fr 3fr; 
+    text-align: end;
+}
+.Image div{
+    background-color: rgb(251, 191, 79);
+    display: grid;
+    border: 1px solid black;
+}
+.Image{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.h1{
+    display: grid;
+    justify-content: center;
+    
+    
+}
+</style>
+<div class="container">
+    <div class="Header">
+        <h1>Header</h1>
+    </div>
+    <div class="middle">
+        <div class="Aside">
+            <h1>Aside</h1>
+        </div>
+        <div class="Article">
+            <div class="h1">
+                <h1>Article</h1> 
+            </div>
+            <div class="Image">
+                <div><h1>Image</h1></div>
+                <div><h1>Image</h1></div>
+                <div><h1>Image</h1></div>
+            </div>
+              
+        </div>
+
+    </div>
+    <div class="Footer">
+        <h1>Footer</h1>
+    </div>
+    <!-- Best Seller -->
+
+</div>
